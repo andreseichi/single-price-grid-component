@@ -154,8 +154,16 @@ body {
 }
 
 .btn {
-  background-color: #c0df34;
-  padding: 1.6rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
   margin-top: 2rem;
   text-align: center;
   font-size: 1.6rem;
@@ -163,5 +171,47 @@ body {
   border-radius: 6px;
   -webkit-box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn a {
+  background-color: #c0df34;
+  padding: 1.5rem 0;
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .card {
+    max-width: 34rem;
+  }
+  .card .community {
+    padding: 2.8rem;
+  }
+  .card .community h2 {
+    font-size: 1.8rem;
+  }
+  .card .community h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+  }
+  .card .community p {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+  .card .info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card .info .subscription {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    padding: 2.8rem;
+  }
+  .card .info .subscription p {
+    font-size: 1.6rem;
+  }
+  .card .info .why-us {
+    padding: 2.8rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

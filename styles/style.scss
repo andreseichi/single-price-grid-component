@@ -127,12 +127,63 @@ body {
 }
 
 .btn {
-  background-color: hsl(71, 73%, 54%);
-  padding: 1.6rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   margin-top: 2rem;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 700;
   border-radius: 6px;
   box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.1);
+
+  a {
+    background-color: hsl(71, 73%, 54%);
+    padding: 1.5rem 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    max-width: 34rem;
+
+    .community {
+      padding: 2.8rem;
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.6rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+      }
+    }
+  }
+
+  .card {
+    .info {
+      flex-wrap: wrap;
+
+      .subscription {
+        flex: 1 1 auto;
+        padding: 2.8rem;
+
+        p {
+          font-size: 1.6rem;
+        }
+      }
+
+      .why-us {
+        padding: 2.8rem;
+      }
+    }
+  }
 }
