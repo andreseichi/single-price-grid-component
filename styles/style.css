@@ -36,6 +36,8 @@ body {
 }
 
 .card {
+  border-radius: 6px;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,10 +46,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 58rem;
+  -webkit-box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card .community {
-  border-radius: 6px 6px 0 0;
   background-color: #fff;
   padding: 4.5rem 4.1rem;
 }
@@ -74,7 +77,6 @@ body {
 }
 
 .card .info {
-  border-radius: 0 0 6px 6px;
   background-color: #2ab2af;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,10 +131,26 @@ body {
   padding: 4.5rem 4rem;
 }
 
-.card .info .why-us h3 {
+.card .info .why-us .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card .info .why-us .links h3 {
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 2rem;
+}
+
+.card .info .why-us .links a {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #e5eff5;
 }
 
 .btn {
@@ -143,5 +161,7 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   border-radius: 6px;
+  -webkit-box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=style.css.map */
