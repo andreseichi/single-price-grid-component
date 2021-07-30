@@ -62,7 +62,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.card .community h3 {
+.card .community h2 {
   font-size: 1.6rem;
   font-weight: 700;
   color: #c0df34;
@@ -92,7 +92,7 @@ body {
   position: relative;
 }
 
-.card .info .subscription h3 {
+.card .info .subscription h2 {
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -141,7 +141,7 @@ body {
           flex-direction: column;
 }
 
-.card .info .why-us .links h3 {
+.card .info .why-us .links h2 {
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -189,7 +189,7 @@ body {
   .card .community h1 {
     font-size: 1.8rem;
   }
-  .card .community h3 {
+  .card .community h2 {
     font-size: 1.5rem;
     margin-bottom: 1.6rem;
   }
