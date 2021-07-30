@@ -55,7 +55,7 @@ body {
   padding: 4.5rem 4.1rem;
 }
 
-.card .community h2 {
+.card .community h1 {
   font-size: 2rem;
   font-weight: 700;
   color: #2ab2af;
@@ -186,7 +186,7 @@ body {
   .card .community {
     padding: 2.8rem;
   }
-  .card .community h2 {
+  .card .community h1 {
     font-size: 1.8rem;
   }
   .card .community h3 {
