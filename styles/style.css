@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 html {
   font-size: 10px;
 }
@@ -42,6 +47,7 @@ body {
 }
 
 .card .community {
+  border-radius: 6px 6px 0 0;
   background-color: #fff;
   padding: 4.5rem 4.1rem;
 }
@@ -65,5 +71,77 @@ body {
   font-weight: 400;
   line-height: 2.6rem;
   color: #98a6bd;
+}
+
+.card .info {
+  border-radius: 0 0 6px 6px;
+  background-color: #2ab2af;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+.card .info .subscription {
+  padding: 4.5rem 4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.card .info .subscription h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.card .info .subscription .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card .info .subscription .price span {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.card .info .subscription .price p {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  color: #e5eff5;
+}
+
+.card .info .subscription p {
+  font-size: 1.4rem;
+}
+
+.card .info .why-us {
+  background-color: #4abebd;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 4.5rem 4rem;
+}
+
+.card .info .why-us h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #c0df34;
+  padding: 1.6rem 0;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 6px;
 }
 /*# sourceMappingURL=style.css.map */
