@@ -31,7 +31,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [My Solution]()
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/basic-html-and-sass-tLcwYCOS-)
 - Live Site URL: [Github Page](https://andreseichi.github.io/single-price-grid-component/)
 
 ## My process
