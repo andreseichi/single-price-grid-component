@@ -1,1 +1,69 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e6eff6;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 58rem;
+}
+
+.card .community {
+  background-color: #fff;
+  padding: 4.5rem 4.1rem;
+}
+
+.card .community h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2ab2af;
+  margin-bottom: 2rem;
+}
+
+.card .community h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #c0df34;
+  margin-bottom: 1rem;
+}
+
+.card .community p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #98a6bd;
+}
+/*# sourceMappingURL=style.css.map */
