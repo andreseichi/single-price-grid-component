@@ -1,6 +1,6 @@
-# Frontend Mentor - Profile card component solution
+# Frontend Mentor - Single Price Grid Component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Single Price Grid Component on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
